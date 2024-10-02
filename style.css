@@ -1,0 +1,186 @@
+@import url("https://rsms.me/inter/inter.css");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+  p a {
+    text-decoration: underline;
+    text-decoration-color: gray; }
+
+html {
+  font-size: 10px;
+  font-family: "Inter", sans-serif;
+  letter-spacing: -0.01rem;
+  font-kerning: normal;
+  font-feature-settings: "kern" 1; }
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif; } }
+body {
+  font-size: 1.75rem;
+  color: #333333;
+  background-color: white; }
+
+@media (prefers-color-scheme: dark) 
+    {   
+  color: white;   background: black}
+
+a {
+  text-decoration: none;
+  color: #333333;
+  overflow-wrap: break-word; }
+
+pre {
+  background: #f2f2f2;
+  border-radius: 3px;
+  padding: 1rem;
+  overflow-x: auto;
+  margin: 1rem 0 1rem 0; }
+  pre code {
+    font-family: "Fira Code", monospace;
+    text-transform: lowercase;
+    text-transform: none; }
+
+p > code,
+li > code,
+dd > code,
+td > code {
+  font-family: "Fira Code", monospace;
+  text-transform: lowercase;
+  background: #f2f2f2;
+  padding: 0 0.5rem; }
+
+blockquote {
+  margin: 0 2rem;
+  font-style: italic; }
+  blockquote p {
+    margin-bottom: 0; }
+
+input {
+  font-family: "Fira Code", monospace;
+  text-transform: lowercase;
+  padding: 0.5rem;
+  font-size: 1.5rem; }
+  input[type="email"] {
+    width: 50%; }
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 5px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1rem; }
+
+h1 {
+  margin-top: 3rem;
+  font-family: "Inter", sans-serif;
+  letter-spacing: -0.05rem;
+  font-weight: 900; }
+
+h2 {
+  margin-top: 2rem; }
+
+h3 {
+  margin-top: 1.5rem; }
+
+ul,
+ol {
+  margin-left: 2.5rem;
+  margin-bottom: 1rem; }
+  ul a,
+  ol a {
+    text-decoration: underline;
+    text-decoration-color: gray; }
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+.container {
+  max-width: 55ch;
+  margin: 0 auto;
+  padding: 1rem; }
+
+.nav {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 1rem; }
+  .nav-title {
+    font-size: 2.5rem;
+    font-style: italic;
+    letter-spacing: -0.055rem;
+    font-weight: 400;
+    white-space: nowrap; }
+  .nav-links a {
+    font-family: "Fira Code", monospace;
+    text-transform: lowercase;
+    color: #b3b3b3;
+    margin-right: 2rem;
+    font-weight: 300;
+    text-align: right; }
+    .nav-links a:last-of-type {
+      margin-right: 0; }
+
+.list {
+  margin-bottom: 2rem; }
+  .list:last-of-type {
+    margin-bottom: 5rem; }
+  .list-date {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #b3b3b3; }
+
+.list-home {
+  margin-bottom: 8rem; }
+  .list-home-details {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #b3b3b3;
+    text-align: right; }
+  .list-home-link {
+    text-decoration: underline;
+    text-decoration-color: gray; }
+
+.post-date {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #b3b3b3;
+  text-align: right; }
+.post-next-prev {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Fira Code", monospace;
+  text-transform: lowercase;
+  margin-top: 5rem;
+  margin-bottom: 1rem; }
+
+.audio-control {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex; }
+  .audio-control-play-pause {
+    margin-right: 1rem; }
+  .audio-control-progress-bar {
+    margin-right: 1rem; }
+
+@media (min-width: 600px) {
+  html {
+    font-size: 11.5px; } }
+
+
+/*# sourceMappingURL=style.css.map */
