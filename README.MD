@@ -4,3 +4,7 @@
 - PowerBi
 - mental modals
 
+
+# Social Profiles
+- [Tableau](https://public.tableau.com/app/profile/rahul.kumar7111/vizzes) 
+
