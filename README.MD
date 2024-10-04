@@ -6,5 +6,5 @@
 
 
 # Social Profiles
-- [Tableau](tab:https://public.tableau.com/app/profile/rahul.kumar7111/vizzes) 
+- [Tableau](https://public.tableau.com/app/profile/rahul.kumar7111/vizzes) 
 
