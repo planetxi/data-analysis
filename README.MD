@@ -1,8 +1,11 @@
-# This resporitories consists of projects i did on data analysis using my data and public data avaliable.
+# This repository consists of projects I to analyze the data.
 
+Tools I use
 - Excel advance
 - PowerBi
-- mental modals
+- SQL
+- Tableau
+- 
 
 
 # Social Profiles
