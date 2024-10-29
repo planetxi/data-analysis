@@ -1,4 +1,4 @@
-# Aim of this repository is to share my projects on data analysis and share the insights here.
+# A repository to share my data analysis projects and insights.
 
 Tools I use to analyze the data
 - Excel Advance
