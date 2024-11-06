@@ -1,1 +1,2 @@
+For Scoring the Website based on DR
 IF(G2275<=40, "Low", IF(AND(G2275>40, G2275<=65), "Good", IF(AND(G2275>65, G2275<=80), "High", "Premium")))
